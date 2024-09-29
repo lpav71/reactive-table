@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 45rem;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.form-one {
+    margin: auto;
+    width: 25rem;
+}
+.header-one {
+     margin: auto auto 30px auto;
+     width: 30rem;
+ }

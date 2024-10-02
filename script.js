@@ -26,9 +26,10 @@ const tbody = document.getElementById('table-body');
 reactiveTable.bindTable(tbody);
 
 let inputData = [
-    {name: 'Вася', age: 25},
-    {name: 'Петя', age: 18},
-    {name: 'Даша', age: 33},
+    {name: 'Петр', age: 28},
+    {name: 'Мария', age: 35},
+    {name: 'Иван', age: 33},
+    {name: 'Анна', age: 25},
 ];
 
 //Заполнение таблицы из входного массива

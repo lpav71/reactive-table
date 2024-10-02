@@ -14,8 +14,8 @@
 <table>
     <thead>
     <tr>
-        <th>Имя</th>
-        <th>Возраст</th>
+        <th onclick="sortTable('name')">Имя<span id="sort-name" class="sort-icon">⬆️</span></th>
+        <th onclick="sortTable('age')">Возраст<span id="sort-age" class="sort-icon">⬆️</span></th>
         <th>Действия</th>
     </tr>
     </thead>
@@ -32,5 +32,6 @@
 
 <script src="reactive-table.js"></script>
 <script src="script.js"></script>
+<script src="sort.js"></script>
 </body>
 </html>

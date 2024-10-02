@@ -16,6 +16,20 @@ class ReactiveTable {
         this.notify();
     }
 
+    // Метод для сортировки массива по заданному ключу
+    sortArray(key, direction = 'asc') {
+        this._array.sort((a, b) => {
+            if (a[key] < b[key]) {
+                return direction === 'asc' ? -1 : 1;
+            }
+            if (a[key] > b[key]) {
+                return direction === 'asc' ? 1 : -1;
+            }
+            return 0;
+        });
+        this.notify(); // Уведомляем слушателей о изменении
+    }
+
     // Метод для добавления нового элемента в массив
     addItem(item) {
         this._array.push(item);

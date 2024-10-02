@@ -29,5 +29,4 @@ function sortTable(column) {
 
     // Сортируем массив в классе ReactiveTable
     reactiveTable.sortArray(column, sortDirection === 1 ? 'asc' : 'desc');
-
 }

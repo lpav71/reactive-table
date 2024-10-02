@@ -17,7 +17,7 @@ class ReactiveTable {
     }
 
     // Метод для сортировки массива по заданному ключу
-    sortArray(key, direction = 'asc') {
+    sort(key, direction = 'asc') {
         this._array.sort((a, b) => {
             if (a[key] < b[key]) {
                 return direction === 'asc' ? -1 : 1;

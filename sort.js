@@ -30,3 +30,7 @@ function sortTable(column) {
     // Сортируем массив в классе ReactiveTable
     reactiveTable.sortArray(column, sortDirection === 1 ? 'asc' : 'desc');
 }
+document.addEventListener('DOMContentLoaded', () => {
+    // Скрываем значки сортировки при загрузке страницы
+    document.querySelectorAll('.sort-icon').forEach(icon => icon.style.display = 'none');
+});

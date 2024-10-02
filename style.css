@@ -26,4 +26,7 @@ th {
 .header-one {
      margin: auto auto 30px auto;
      width: 30rem;
- }
+}
+.sort-icon {
+    display: none; /* Скрываем значки сортировки по умолчанию */
+}

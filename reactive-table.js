@@ -66,7 +66,7 @@ class ReactiveTable {
             tbody.innerHTML = ''; // Очищаем текущие строки таблицы
             newArray.forEach((item, index) => {
                 const rowHTML = `
-                <tr>
+                <tr data-index="${index}">
                     ${Object.values(item).map(value => `<td>${value}</td>`).join('')}
                 </tr>
                 `;

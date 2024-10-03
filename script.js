@@ -33,9 +33,7 @@ let inputData = [
 ];
 
 //Заполнение таблицы из входного массива
-inputData.forEach((item, index) => {
-    reactiveTable.addItem(item);
-})
+reactiveTable.array = inputData;
 
 // Обработчик для удаления элемента
 deleteRow = function (index) {
